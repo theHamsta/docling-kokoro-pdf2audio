@@ -1,0 +1,16 @@
+[project]
+name = "pdf2audio"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "av>=16.0.1",
+    "docling>=2.63.0",
+    "kokoro>=0.9.4",
+    "misaki[en]>=0.9.4",
+    "pip>=25.3",
+    "soundfile>=0.13.1",
+]
+[project.scripts]
+pdf2audio = "pdf2audio.main:main"
