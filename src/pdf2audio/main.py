@@ -77,6 +77,7 @@ def main():
         output_container.mux(out_packet)
 
     output_container.close()
+    print(f'Saved "{args.output}"')
 
 
 if __name__ == "__main__":
