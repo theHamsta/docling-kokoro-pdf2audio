@@ -14,3 +14,5 @@ dependencies = [
 ]
 [project.scripts]
 pdf2audio = "pdf2audio.main:main"
+[tool.uv]
+package = true
